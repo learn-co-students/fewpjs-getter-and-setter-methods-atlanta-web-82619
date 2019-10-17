@@ -18,8 +18,8 @@ describe( "Circle", () => {
       expect( circle.circumference ).to.be.at.most( 37.71 )
     } )
     it( "the area of a circle using the pseudo-property `circle.area`", () => {
-      expect( circle.area ).to.be.at.least( 113 )
-      expect( circle.area ).to.be.at.most( 113.1 )
+      expect( circle.area ).to.be.at.least( 226 )
+      expect( circle.area ).to.be.at.most( 226.4 )
     } )
   } )
 
